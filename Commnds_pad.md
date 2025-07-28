@@ -1,10 +1,10 @@
-# To check in which branach you are
+# To check in which branch you are
   - git branch 
 # To switch branches
   - git checkout <brnach_name> 
 # To update your code from the repository 
   - git merge origin/dev
-# To updtae and see new changes
+# To update and see new changes
   - git pull  
 # To see any pending work
   - git status  
