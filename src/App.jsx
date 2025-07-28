@@ -1,17 +1,12 @@
-
 function App() {
-
-
   return (
     <>
       <div>
-        fourth Commit of hash
-          make this dev branch
-        another branch created
-        <!-- This is a comment -->
+        fourth Commit of hash make this dev branch KArik commit another branch
+        created
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
