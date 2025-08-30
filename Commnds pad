@@ -4,3 +4,5 @@ git merge origin/dev -> To update your code from the repository
 git pull -> To updtae and see new changes 
 git status -> To see any pending work 
 git fetch origin -> To accept new changes from repo to local 
+
+
