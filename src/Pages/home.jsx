@@ -24,9 +24,11 @@ function Home() {
 
                 <section className="bg-amber-100 h-full w-full pb-20">
                     <div className="container mx-auto">
-                        <p className="text-7xl pt-30 pl-30 text-amber-500 text-center font-light">New Arrivals</p>
+                        <p className="text-7xl pt-30  text-amber-500 text-center font-light ">
+                             <span class="underline decoration-amber-500 decoration-2 underline-offset-11   ">New</span> Arrival 
+                        </p>
                         <div className="gap-100">
-                            <div className="flex flex-cols-2 gap-10 justify-center pr-40 mt-30">
+                            <div className="flex flex-cols-2 gap-10 justify-center pr-40 mt-20">
                                 <div><img className="h-130 w-90" src="30dc57fa96be1f2254f6e02a63b697d0 1.png" alt="" srcset="" /></div>
                                 <div className="text-left pt-25 leading-5">
                                     <p className="pb-10 font-light">Dead Horse</p>
@@ -83,10 +85,10 @@ function Home() {
 
                 <section>
                     <div className="bg-amber-100 flex flex-col items-center text-center py-16 px-4 pb-30">
-                        <p className="text-7xl text-amber-500 font-light mb-4">
-                            OPULENT CAP MAKERS
+                        <p className="text-7xl text-amber-500 font-light mb-4 " >
+                            <span class="underline decoration-amber-500 decoration-2 underline-offset-11  ">Opulent</span> Cap Makers
                         </p>
-                        <p className="text-xl font-semibold mb-6">SINCE 1895</p>
+                        <p className="text-xl font-semibold mb-6 mt-10">SINCE 1895</p>
                         <p className="max-w-3xl text-gray-700 leading-7">
                             We're a family of hat makers and dream makers with a legacy built on unconventional
                             ideas and foolish pursuits in order to move people forward. We believe in encouraging
@@ -97,8 +99,8 @@ function Home() {
 
                 <section>
                     <div className="bg-amber-100 py-12 pb-40">
-                        <p className="text-7xl text-center text-amber-500 font-light mb-12">
-                            On Sale
+                        <p className="text-7xl text-center text-amber-500 font-light mb-12  ">
+                            <span class="underline decoration-amber-500 decoration-2 underline-offset-11  ">On</span> Sale
                         </p>
 
                         <div className="flex justify-center flex-wrap gap-6 -mx-[1px]">
