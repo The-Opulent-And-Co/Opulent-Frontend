@@ -10,7 +10,7 @@ function App() {
       <div>
       <Linking/>
         <Routes>
-        <Route path="/home-page" element={<Home/>}></Route>
+        <Route path="/" element={<Home/>}></Route>
         <Route path="/about-page" element={<About/>}></Route>
         </Routes>
         <Footer/>
