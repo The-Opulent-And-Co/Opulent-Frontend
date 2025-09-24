@@ -25,32 +25,36 @@ function Home() {
                 <section className="bg-amber-100 h-full w-full pb-20">
                     <div className="container mx-auto">
                         <p className="text-7xl pt-30  text-amber-500 text-center font-light ">
-                             <span class="underline decoration-amber-500 decoration-2 underline-offset-11   ">New</span> Arrival 
+                            <span class="underline decoration-amber-500 decoration-2 underline-offset-11   ">New</span> Arrival
                         </p>
                         <div className="gap-100">
                             <div className="flex flex-cols-2 gap-10 justify-center pr-40 mt-20">
-                                <div><img className="h-130 w-90" src="30dc57fa96be1f2254f6e02a63b697d0 1.png" alt="" srcset="" /></div>
+                                <div><img className="h-130 w-90" src="../public/30dc57fa96be1f2254f6e02a63b697d0 1.png" alt="" srcset="" /></div>
                                 <div className="text-left pt-25 leading-5">
-                                    <p className="pb-10 font-light">Dead Horse</p>
+                                    <p className="pb-10 font-bold">Dead Horse</p>
 
                                     <p className="pb-10 font-light">Rs. 799.00</p>
 
                                     <p className="pb-10 font-light">Member price</p>
 
                                     <p className="pb-10 font-light">Rs. 599.00</p>
-                                    <p className="pb-10 font-light">MRP inclusive of all taxes</p>
-                                    <p className="pb-10 font-light hover:text-amber-500">SHOP NOW</p>
+                                    <p className="pb-10 font-regular">MRP inclusive of all taxes</p>
+                                    <button type="button" className="bg-amber-800 w-40 text-white px-3 py-3 text-xl rounded-md">
+                                        SHOP
+                                    </button>
 
                                 </div>
                             </div>
                             <div className="flex flex-cols-2 gap-10 justify-center pl-40 mt-10">
                                 <div className="text-left pt-25 leading-5">
-                                    <p className="pb-10 font-light">Double Shift</p>
+                                    <p className="pb-10 font-bold">Double Shift</p>
                                     <p className="pb-10 font-light">Rs. 799.00</p>
                                     <p className="pb-10 font-light">Member price</p>
                                     <p className="pb-10 font-light">Rs. 599.00</p>
-                                    <p className="pb-10 font-light">MRP inclusive of all taxes</p>
-                                    <p className="pb-10 font-light hover:text-amber-500">SHOP NOW</p>
+                                    <p className="pb-10 font-regular">MRP inclusive of all taxes</p>
+                                    <button type="button" className="bg-amber-800 w-40 text-white px-3 py-3 text-xl rounded-md">
+                                        SHOP
+                                    </button>
 
                                 </div>
                                 <div><img className="h-130 w-90" src="pexels-hazardos-1475384 1.png" alt="" srcset="" /></div>
@@ -64,7 +68,7 @@ function Home() {
                 <section className="relative w-full h-screen overflow-hidden">
                     <img
                         className="h-full w-full object-cover"
-                        src="/pexels-pripicart-704857 1.png"
+                        src="../public/pexels-pripicart-704857 1.png"
                         alt="Cap"
                     />
 
@@ -108,18 +112,18 @@ function Home() {
                             <div className="relative h-100 w-62 mx-[1px]">
                                 <img
                                     className="h-full w-full object-cover"
-                                    src="/1stone.png"
+                                    src="../public/1stone.png"
                                     alt="Stone cap"
                                 />
                                 <p className="absolute bottom-0 left-0 w-full bg-black/100 text-white text-center text-sm py-1">
-                                   The Kid
+                                    The Kid
                                 </p>
                             </div>
 
                             <div className="relative h-100 w-62 mx-[1px]">
                                 <img
                                     className="h-full w-full object-cover"
-                                    src="/flaw.png"
+                                    src="../public/flaw.png"
                                     alt="Flaw cap"
                                 />
                                 <p className="absolute bottom-0 left-0 w-full bg-black/100 text-white text-center text-sm py-1">
@@ -130,7 +134,7 @@ function Home() {
                             <div className="relative h-100 w-62 mx-[1px]">
                                 <img
                                     className="h-full w-full object-cover"
-                                    src="/pexels-maxschwoelk-1853232 1.png"
+                                    src="../public/pexels-maxschwoelk-1853232 1.png"
                                     alt="Max cap"
                                 />
                                 <p className="absolute bottom-0 left-0 w-full bg-black/100 text-white text-center text-sm py-1">
@@ -141,7 +145,7 @@ function Home() {
                             <div className="relative h-100 w-62 mx-[1px]">
                                 <img
                                     className="h-full w-full object-cover"
-                                    src="/5e446ddc5b3a43c00c683f70cd986ec6 1.png"
+                                    src="../public/5e446ddc5b3a43c00c683f70cd986ec6 1.png"
                                     alt="Cap"
                                 />
                                 <p className="absolute bottom-0 left-0 w-full bg-black/100 text-white text-center text-sm py-1">
@@ -149,13 +153,13 @@ function Home() {
                                 </p>
                             </div>
                         </div>
-                        
+
                     </div>
                     <div class="border-t border-black w-3/4 mx-auto"></div>
-                    
+
                 </section>
 
-                
+
             </div>
         </>
     )
