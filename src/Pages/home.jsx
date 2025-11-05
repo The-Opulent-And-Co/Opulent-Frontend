@@ -6,9 +6,9 @@ function Home() {
                     <div><img className="h-full w-full " src="/cap_1.jpg" alt="" />
                         <div className="absolute top-0 left-0 w-full">
                             <div className=" absolute inset-1 grid grid-cols-3 gap-100 container place-items-center mx-auto">
-                                <div className="text-black "><img src="../public/hamburger.png" alt="" srcset="" /></div>
-                                <div className="text-black h-30 w-30 mt-5"><img src="../public/DOC-20250418-WA0111..png" alt="" srcset="" /></div>
-                                <div className="text-black " ><img src="../public/search-interface-symbol.png" alt="" srcset="" /></div>
+                                <div className="text-black "><img src="/hamburger.png" alt="" srcset="" /></div>
+                                <div className="text-black h-30 w-30 mt-5"><img src="/DOC-20250418-WA0111..png" alt="" srcset="" /></div>
+                                <div className="text-black " ><img src="/search-interface-symbol.png" alt="" srcset="" /></div>
                             </div>
                         </div>
                         <div className="absolute bottom-1 left-12 w-full mb-12 flex">
@@ -29,7 +29,7 @@ function Home() {
                         </p>
                         <div className="gap-100">
                             <div className="flex flex-cols-2 gap-10 justify-center pr-40 mt-20">
-                                <div><img className="h-130 w-90" src="../public/30dc57fa96be1f2254f6e02a63b697d0 1.png" alt="" srcset="" /></div>
+                                <div><img className="h-130 w-90" src="/30dc57fa96be1f2254f6e02a63b697d0 1.png" alt="" srcset="" /></div>
                                 <div className="text-left pt-25 leading-5">
                                     <p className="pb-10 font-bold">Dead Horse</p>
 
@@ -57,7 +57,7 @@ function Home() {
                                     </button>
 
                                 </div>
-                                <div><img className="h-130 w-90" src="pexels-hazardos-1475384 1.png" alt="" srcset="" /></div>
+                                <div><img className="h-130 w-90" src="/pexels-hazardos-1475384 1.png" alt="" srcset="" /></div>
                             </div>
                         </div>
 
@@ -68,7 +68,7 @@ function Home() {
                 <section className="relative w-full h-screen overflow-hidden">
                     <img
                         className="h-full w-full object-cover"
-                        src="../public/pexels-pripicart-704857 1.png"
+                        src="/pexels-pripicart-704857 1.png"
                         alt="Cap"
                     />
 
@@ -112,7 +112,7 @@ function Home() {
                             <div className="relative h-100 w-62 mx-[1px]">
                                 <img
                                     className="h-full w-full object-cover"
-                                    src="../public/1stone.png"
+                                    src="/1stone.png"
                                     alt="Stone cap"
                                 />
                                 <p className="absolute bottom-0 left-0 w-full bg-black/100 text-white text-center text-sm py-1">
@@ -123,7 +123,7 @@ function Home() {
                             <div className="relative h-100 w-62 mx-[1px]">
                                 <img
                                     className="h-full w-full object-cover"
-                                    src="../public/flaw.png"
+                                    src="/flaw.png"
                                     alt="Flaw cap"
                                 />
                                 <p className="absolute bottom-0 left-0 w-full bg-black/100 text-white text-center text-sm py-1">
@@ -134,7 +134,7 @@ function Home() {
                             <div className="relative h-100 w-62 mx-[1px]">
                                 <img
                                     className="h-full w-full object-cover"
-                                    src="../public/pexels-maxschwoelk-1853232 1.png"
+                                    src="/pexels-maxschwoelk-1853232 1.png"
                                     alt="Max cap"
                                 />
                                 <p className="absolute bottom-0 left-0 w-full bg-black/100 text-white text-center text-sm py-1">
@@ -145,7 +145,7 @@ function Home() {
                             <div className="relative h-100 w-62 mx-[1px]">
                                 <img
                                     className="h-full w-full object-cover"
-                                    src="../public/5e446ddc5b3a43c00c683f70cd986ec6 1.png"
+                                    src="/5e446ddc5b3a43c00c683f70cd986ec6 1.png"
                                     alt="Cap"
                                 />
                                 <p className="absolute bottom-0 left-0 w-full bg-black/100 text-white text-center text-sm py-1">
